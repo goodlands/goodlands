@@ -42,7 +42,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-92277024-1"
   disqus_shortname: "goodlands-github-ip"
   muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
