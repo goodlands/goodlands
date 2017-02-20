@@ -6,7 +6,7 @@ url: "https://goodlands.github.io" # the base hostname & protocol for your site
 theme_settings:
   # Meta
   title: Goodlands RPG
-  avatar: avatar.png
+  avatar: avatar.png # in the /img/ folder
   gravatar: # Email MD5 hash
   description: "A website hosting RPG ideas" # used by search engines
 
