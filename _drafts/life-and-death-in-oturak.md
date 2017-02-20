@@ -2,6 +2,7 @@
 layout: post
 title: Life and Death in Oturak
 feature-img: "img/sample_feature_img_2.png"
+comments: true
 ---
 
 # Summary

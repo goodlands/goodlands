@@ -2,6 +2,7 @@
 layout: post
 title: Hello, World
 feature-img: "img/sample_feature_img.png"
+comments: false
 ---
 This is a first post test.
 
