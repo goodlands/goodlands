@@ -10,9 +10,8 @@
   <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
     <header class="tc mt4">
       <a href="{{ site.url }}">
-        <img src="{{ site.url }}/images/scribble.png" alt="Home" width="53" height="59">
+        <img src="{{ site.url }}/images/goodlands.png" alt="{{ site.title }}" width="137" height="150">
       </a>
-      <p>{{ site.title }}</p>
     </header>
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
       <nav class="bb b--light-gray pv4 tc" aria-label="Main">
@@ -24,15 +23,15 @@
         {% endfor %}
       </nav>
 
-      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+      <main class="tl f6 relative pv4 ph4 ph5-ns  overflow-hidden">
         {% if page.title %}
           <div class="mb4">
-            {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
             <h1 class="ttu f3 mt0 lh-title cb mb2">
               {% if is_post %}
               {% endif %}
               {{ page.title }}
             </h1>
+            {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
             {% if is_post and site.share %}
               <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
