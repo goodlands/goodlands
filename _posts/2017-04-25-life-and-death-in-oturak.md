@@ -1,5 +1,5 @@
 ---
-title: Module: Life and Death in Orutak
+title: Module - Life and Death in Orutak
 date: 2017-04-25 16:00:00
 ---
 
